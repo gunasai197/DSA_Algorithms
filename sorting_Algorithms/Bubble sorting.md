@@ -15,7 +15,7 @@
     - After the first pass, the **largest element is at the end**.   
 4. Repeat the process for the **remaining elements** until the list is sorted.
 
-## Ex:
+## Word Ex:
 
    1 **Arranging students by height in a line**
 - Suppose students are standing randomly.
@@ -26,6 +26,7 @@
  2 **Sorting books on a shelf (small collection)**
     - If you only have a few books, you might check two books next to each other and swap them if they’re out of order.
     - After repeating, the heaviest/largest book keeps moving to the end.
+
  3 **Small-Scale Data Sorting**
 - For example, if a **shopkeeper** has just 5–10 products and wants to sort prices quickly in a simple program, Bubble Sort works fine.
 - Sorting **student marks** in a small classroom.
