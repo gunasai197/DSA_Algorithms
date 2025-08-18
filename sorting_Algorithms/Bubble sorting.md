@@ -15,7 +15,7 @@
     - After the first pass, the **largest element is at the end**.   
 4. Repeat the process for the **remaining elements** until the list is sorted.
 
-## Real World  Ex:
+## Real World Examples using bubble sort:
 
    1 **Arranging students by height in a line**
 - Suppose students are standing randomly.
