@@ -102,3 +102,4 @@ Space complexity measures **how much extra memory** the algorithm uses.
 - If you see **one loop** → O(n)
 - **Two nested loops** → O(n²)
 - **Three nested loops** → O(n³)
+
