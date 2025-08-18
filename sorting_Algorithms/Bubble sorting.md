@@ -67,7 +67,7 @@ Time complexity measures **how many operations** (comparisons, swaps, etc.) the 
 ---
 
 **Example: Bubble Sort**
-```
+```python
 for i in range(n):                 # Loop 1 → runs n times
     for j in range(0, n-i-1):      # Loop 2 → runs (n-i-1) times
         if arr[j] > arr[j+1]:      # comparison → O(1)
@@ -110,3 +110,7 @@ Space complexity measures **how much extra memory** the algorithm uses.
 - Bubble Sort sorts **in-place** (no extra arrays needed).
 - Only a few temporary variables (like `swapped` or `temp`).
 👉 Space Complexity = O(1)
+```java
+
+
+```
