@@ -1,6 +1,6 @@
 # DSA_Algorithms
 
-1. what is bubble s[]()orting
+1. what is bubble sorting
 2. working of bubble sorting
 3. real world examples
 4. code for bubble soring
