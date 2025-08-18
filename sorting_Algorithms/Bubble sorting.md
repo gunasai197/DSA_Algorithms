@@ -1,4 +1,36 @@
+## What is Sorting?
+**Sorting** is the process of arranging data in a **specific order** so it becomes easier to search, analyze, or use.
+👉 Sorting means putting items in a sequence like:
+- **Ascending order** (small → big, A → Z, 0 → 9)
+- **Descending order** (big → small, Z → A, 9 → 0)
+## 🔹 Examples in Real Life
 
+1. **Arranging books** in a library from A–Z by title.
+    
+2. **Ranking students** by marks (highest to lowest).
+    
+3. **Phone contacts** sorted alphabetically.
+    
+4. **E-commerce apps** sorting products by price (low to high / high to low).
+    
+
+---
+
+## 🔹 Types of Sorting in DSA
+
+There are two main categories:
+
+1. **Internal Sorting**
+    
+    - Sorting is done **in memory (RAM)**.
+        
+    - Examples: Bubble Sort, Insertion Sort, Merge Sort, Quick Sort.
+        
+2. **External Sorting**
+    
+    - Used when the dataset is too large to fit in memory (uses disk).
+        
+    - Example: External Merge Sort (used in databases, big data).
 # what is bubble sorting:
 
 - Bubble Sort is one of the simplest **sorting algorithms** in **Data Structures and Algorithms (DSA)**.
@@ -110,3 +142,4 @@ Space complexity measures **how much extra memory** the algorithm uses.
 - Bubble Sort sorts **in-place** (no extra arrays needed).
 - Only a few temporary variables (like `swapped` or `temp`).
 👉 Space Complexity = O(1)
+
