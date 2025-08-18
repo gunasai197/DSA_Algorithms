@@ -79,4 +79,40 @@ for i in range(n):                 # Loop 1 → runs n times
 - Total → **n × n = O(n²)**
 👉 That’s how we say Bubble Sort takes **O(n²)** in worst and average case.
 	If no swaps (already sorted array) → **O(n)** (best case).
-	
+# 2. Space Complexity
+
+Space complexity measures **how much extra memory** the algorithm uses.
+
+👉 **Steps to find it:**
+1. **Check extra variables.**
+    - Integers, booleans → O(1)
+2. **Check extra arrays/structures.**
+    - New array of size n → O(n)
+3. **Check recursion stack.**
+    - Recursive calls may add extra space.
+        
+
+---
+
+✅ **Example: Bubble Sort**
+
+- Uses only:
+    
+    - `i`, `j` (loop variables) → O(1)
+        
+    - `swapped` (boolean flag) → O(1)
+        
+    - `temp` (for swapping) → O(1)
+        
+- No extra arrays → **O(1) space**
+    
+
+---
+
+# 🔹 General Formula
+
+- If you see **one loop** → O(n)
+    
+- **Two nested loops** → O(n²)
+    
+- **Three nested loops** → O(n³)
