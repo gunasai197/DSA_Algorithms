@@ -3,33 +3,21 @@
 👉 Sorting means putting items in a sequence like:
 - **Ascending order** (small → big, A → Z, 0 → 9)
 - **Descending order** (big → small, Z → A, 9 → 0)
-## 🔹 Examples in Real Life
+## Examples in Real Life
 
 1. **Arranging books** in a library from A–Z by title.
-    
 2. **Ranking students** by marks (highest to lowest).
-    
 3. **Phone contacts** sorted alphabetically.
-    
 4. **E-commerce apps** sorting products by price (low to high / high to low).
-    
-
 ---
-
-## 🔹 Types of Sorting in DSA
+##  Types of Sorting in DSA:
 
 There are two main categories:
-
 1. **Internal Sorting**
-    
     - Sorting is done **in memory (RAM)**.
-        
     - Examples: Bubble Sort, Insertion Sort, Merge Sort, Quick Sort.
-        
 2. **External Sorting**
-    
     - Used when the dataset is too large to fit in memory (uses disk).
-        
     - Example: External Merge Sort (used in databases, big data).
 # what is bubble sorting:
 
