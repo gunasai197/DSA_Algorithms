@@ -49,3 +49,5 @@ def bubble_sort(arr):
 print(bubble_sort([2, 3, 4, 5, 6]))  # already sorted
 
 ```
+
+## Time and space 
