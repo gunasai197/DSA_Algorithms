@@ -90,29 +90,15 @@ Space complexity measures **how much extra memory** the algorithm uses.
     - New array of size n → O(n)
 3. **Check recursion stack.**
     - Recursive calls may add extra space.
-        
 
----
-
-✅ **Example: Bubble Sort**
-
+ **Example: Bubble Sort**
 - Uses only:
-    
     - `i`, `j` (loop variables) → O(1)
-        
     - `swapped` (boolean flag) → O(1)
-        
     - `temp` (for swapping) → O(1)
-        
 - No extra arrays → **O(1) space**
-    
-
----
-
-# 🔹 General Formula
+#  General Formula
 
 - If you see **one loop** → O(n)
-    
 - **Two nested loops** → O(n²)
-    
 - **Three nested loops** → O(n³)
