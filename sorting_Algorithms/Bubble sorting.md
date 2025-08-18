@@ -32,7 +32,7 @@
 - Sorting **student marks** in a small classroom.
 
 
-## code:
+## code for bubble sort:
 ```
 def bubble_sort(arr):
     n = len(arr)
@@ -66,7 +66,7 @@ Time complexity measures **how many operations** (comparisons, swaps, etc.) the 
 4. **Take the dominant term** (ignore constants and lower-order terms).
 ---
 
-** Example: Bubble Sort**
+**Example: Bubble Sort**
 ```
 for i in range(n):                 # Loop 1 → runs n times
     for j in range(0, n-i-1):      # Loop 2 → runs (n-i-1) times
