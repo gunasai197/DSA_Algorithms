@@ -17,7 +17,15 @@
 
 ## Ex:
 
-   array = [5,3,8,4,2]
+   1 **Arranging students by height in a line**
+- Suppose students are standing randomly.
+- You keep checking each **pair of neighbors**:
+    - If the left one is taller than the right one → swap.   
+- After one full round, the **tallest student goes to the end** (like the "largest bubble").
+
+ 2 **Sorting books on a shelf (small collection)**
+    - If you only have a few books, you might check two books next to each other and swap them if they’re out of order.
+    - After repeating, the heaviest/largest book keeps moving to the end.
 
 
 ## code:
