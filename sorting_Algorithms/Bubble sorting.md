@@ -50,7 +50,7 @@ print(bubble_sort([2, 3, 4, 5, 6]))  # already sorted
 
 ```
 
-## Time and space complexity:
+## Time and space complexity for bubble sort:
 # 1. Time Complexity
 
 Time complexity measures **how many operations** (comparisons, swaps, etc.) the algorithm performs in terms of input size `n`.
