@@ -102,4 +102,13 @@ Space complexity measures **how much extra memory** the algorithm uses.
 - If you see **one loop** → O(n)
 - **Two nested loops** → O(n²)
 - **Three nested loops** → O(n³)
+## Time Complexity:
+- Best Case: **O(n)**
 
+- Average Case: **O(n²)**
+    
+- Worst Case: **O(n²)**
+## Space Complexity
+- Bubble Sort sorts **in-place** (no extra arrays needed).
+- Only a few temporary variables (like `swapped` or `temp`).
+👉 Space Complexity = **O(1)**
