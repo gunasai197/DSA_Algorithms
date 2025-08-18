@@ -97,7 +97,7 @@ Space complexity measures **how much extra memory** the algorithm uses.
     - `swapped` (boolean flag) → O(1)
     - `temp` (for swapping) → O(1)
 - No extra arrays → **O(1) space**
-#  General Formula
+#  General Formula to find the time complexity
 
 - If you see **one loop** → O(n)
 - **Two nested loops** → O(n²)
