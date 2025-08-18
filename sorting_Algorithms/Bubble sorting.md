@@ -67,6 +67,10 @@ Time complexity measures **how many operations** (comparisons, swaps, etc.) the 
 ---
 
 ** Example: Bubble Sort**
+```
+for i in range(n):                 # Loop 1 → runs n times
+    for j in range(0, n-i-1):      # Loop 2 → runs (n-i-1) times
+        if arr[j] > arr[j+1]:      # comparison → O(1)
+            swap(arr[j], arr[j+1]) # swap → O(1)
 
-`for i in range(n): # Loop 1 → runs n times     
-	for j in range(0, n-i-1):   # Loop 2 → runs (n-i-1) times         if arr[j] > arr[j+1]:      # comparison → O(1)             swap(arr[j], arr[j+1]) # swap → O(1)`
+```
