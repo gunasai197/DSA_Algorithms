@@ -110,7 +110,3 @@ Space complexity measures **how much extra memory** the algorithm uses.
 - Bubble Sort sorts **in-place** (no extra arrays needed).
 - Only a few temporary variables (like `swapped` or `temp`).
 👉 Space Complexity = O(1)
-```java
-
-
-```
