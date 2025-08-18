@@ -78,4 +78,5 @@ for i in range(n):                 # Loop 1 → runs n times
 - Inner loop → ~**n times** (on average)
 - Total → **n × n = O(n²)**
 👉 That’s how we say Bubble Sort takes **O(n²)** in worst and average case.
-	If no swaps → **O(n)** (best case).
+	If no swaps (already sorted array) → **O(n)** (best case).
+	
