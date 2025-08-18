@@ -51,3 +51,24 @@ print(bubble_sort([2, 3, 4, 5, 6]))  # already sorted
 ```
 
 ## Time and space 
+# 🔹 1. Time Complexity
+
+Time complexity measures **how many operations** (comparisons, swaps, etc.) the algorithm performs in terms of input size `n`.
+
+👉 **Steps to find it:**
+
+1. **Look at loops** (for/while).
+    
+    - Each loop contributes to time complexity.
+        
+2. **Count operations inside loops.**
+    
+    - Comparisons, swaps, assignments.
+3. **Multiply nested loops.**
+    - Example: a loop inside a loop (`O(n) * O(n) = O(n²)`).
+4. **Take the dominant term** (ignore constants and lower-order terms).
+---
+
+✅ **Example: Bubble Sort**
+
+`for i in range(n):                 # Loop 1 → runs n times     for j in range(0, n-i-1):      # Loop 2 → runs (n-i-1) times         if arr[j] > arr[j+1]:      # comparison → O(1)             swap(arr[j], arr[j+1]) # swap → O(1)`
