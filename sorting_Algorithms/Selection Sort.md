@@ -63,3 +63,9 @@ print("Sorted:", sorted_arr)
 - **Average Case:** O(n²).
 - Total comparisons = `(n-1) + (n-2) + … + 1 = n(n-1)/2 ≈ O(n²)`.
 
+## Space Complexity:
+
+-  O(1)
+
+
+
