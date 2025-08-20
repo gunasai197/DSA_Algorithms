@@ -18,12 +18,13 @@ So, the array gets divided into two parts:
 4. Now the first element is sorted.
 5. Repeat this process for the remaining elements until the array is sorted.
 
-### **Selecting Top-K Elements**
+## *Examples using Selection sorting:
+### *Selecting Top-K Elements*
 - In some systems, instead of sorting the full array, you only need the **top few smallest/largest values**.
 - Selection sort works well because:
     - You can stop after finding first K values.
     - Example: In a game leaderboard, quickly finding **top 3 scores** out of 20 players.
-###  **Sorting Database Query Results (small datasets)**
+###  *Sorting Database Query Results (small datasets)*
 - When a **small number of records** are fetched from a database (like <100 rows), a simple algorithm like Selection Sort can be applied.
 - Example: Sorting search results by price in a lightweight in-memory database in a small app.
 
