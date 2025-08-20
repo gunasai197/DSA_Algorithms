@@ -21,8 +21,16 @@ Imagine you are arranging books by height:
 - You look at all the books, pick the **shortest one**, place it first.
 - Then look at the remaining, pick the **next shortest**, place it second.
 - Continue until all are arranged. 
-
-
+- 
+**Pseudocode:**
+```
+for i = 0 to n-1:
+    min_index = i
+    for j = i+1 to n-1:
+        if arr[j] < arr[min_index]:
+            min_index = j
+    swap arr[i] and arr[min_index]
+```
 
 **Code:**
 ```python 
