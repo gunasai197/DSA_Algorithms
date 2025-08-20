@@ -18,13 +18,19 @@ So, the array gets divided into two parts:
 4. Now the first element is sorted.
 5. Repeat this process for the remaining elements until the array is sorted.
 
-## *Examples using Selection sorting:
-### Selecting Top-K Elements*
+## *Examples using Selection sorting:*
+
+### 1. Sorting Small Arrays (Embedded Systems / IoT)
+- In small devices (like Arduino, sensors, calculators) where memory is **very limited**, Selection Sort is sometimes used because:
+    - It does not need extra space.
+    - Data size is usually **tiny** (5–50 values).
+- Example: Sorting temperature readings from a small sensor to find min/max easily.
+### 2. Selecting Top-K Elements
 - In some systems, instead of sorting the full array, you only need the **top few smallest/largest values**.
 - Selection sort works well because:
     - You can stop after finding first K values.
     - Example: In a game leaderboard, quickly finding **top 3 scores** out of 20 players.
-###  *Sorting Database Query Results (small datasets)*
+###  3. *Sorting Database Query Results (small datasets)*
 - When a **small number of records** are fetched from a database (like <100 rows), a simple algorithm like Selection Sort can be applied.
 - Example: Sorting search results by price in a lightweight in-memory database in a small app.
 
