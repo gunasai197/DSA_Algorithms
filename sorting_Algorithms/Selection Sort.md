@@ -35,11 +35,10 @@ for i = 0 to n-1:
 **Code:**
 ```python 
 def selection_sort(arr):
-    n = len(arr)
     
-    for i in range(n):  # For each position
+    for i in range(len(n)):  # For each position
         min_index = i   # Assume first element is min
-        for j in range(i+1, n):
+        for j in range(i+1,len(n)):
             if arr[j] < arr[min_index]:
                 min_index = j   # Update min_index
         
@@ -59,5 +58,8 @@ print("Sorted:", sorted_arr)
 
 ## Time Complexity:
 
-
+- **Best Case:** O(n²) → Even if already sorted, it still checks all comparisons.
+- **Worst Case:** O(n²) → Always scans entire unsorted array.
+- **Average Case:** O(n²).
+- Total comparisons = `(n-1) + (n-2) + … + 1 = n(n-1)/2 ≈ O(n²)`.
 
