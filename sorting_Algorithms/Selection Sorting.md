@@ -19,7 +19,7 @@ So, the array gets divided into two parts:
 5. Repeat this process for the remaining elements until the array is sorted.
 
 ## *Examples using Selection sorting:
-### *Selecting Top-K Elements*
+### Selecting Top-K Elements*
 - In some systems, instead of sorting the full array, you only need the **top few smallest/largest values**.
 - Selection sort works well because:
     - You can stop after finding first K values.
