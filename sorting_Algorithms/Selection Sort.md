@@ -54,8 +54,6 @@ sorted_arr = selection_sort(arr)
 print("Sorted:", sorted_arr)
 
 ```
-
-
 ## Time Complexity:
 
 - **Best Case:** O(n²) → Even if already sorted, it still checks all comparisons.
@@ -65,7 +63,7 @@ print("Sorted:", sorted_arr)
 
 ## Space Complexity:
 
--  O(1)
+-  O(1) -> In-place sorting (No extra memory needed).
 
 
 
