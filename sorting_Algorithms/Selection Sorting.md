@@ -1,4 +1,5 @@
-What is Selection Sortin
+## What is Selection Sort:
+
 Selection Sort is one of the **simplest sorting algorithms** in Data Structures & Algorithms (DSA).  
 It is a **comparison-based, in-place sorting technique**.    
 👉 In simple words:
