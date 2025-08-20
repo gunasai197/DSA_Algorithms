@@ -1,3 +1,4 @@
+What is Selection Sortin
 Selection Sort is one of the **simplest sorting algorithms** in Data Structures & Algorithms (DSA).  
 It is a **comparison-based, in-place sorting technique**.    
 👉 In simple words:
@@ -21,7 +22,7 @@ Imagine you are arranging books by height:
 - You look at all the books, pick the **shortest one**, place it first.
 - Then look at the remaining, pick the **next shortest**, place it second.
 - Continue until all are arranged. 
-- 
+ 
 **Pseudocode:**
 ```
 for i = 0 to n-1:
@@ -60,7 +61,6 @@ print("Sorted:", sorted_arr)
 - **Worst Case:** O(n²) → Always scans entire unsorted array.
 - **Average Case:** O(n²).
 - Total comparisons = `(n-1) + (n-2) + … + 1 = n(n-1)/2 ≈ O(n²)`.
-
 ## Space Complexity:
 
 -  O(1) -> In-place sorting (No extra memory needed).
