@@ -9,4 +9,14 @@ So, the array gets divided into two parts:
 
 ## working of selection sort:
 
-S
+**Step - by - Step:**
+
+1. Start with the first element of the array.
+    
+2. Find the **minimum element** from the unsorted part.
+    
+3. Swap it with the **first element**.
+    
+4. Now the first element is sorted.
+    
+5. Repeat this process for the remaining elements until the array is sorted.
