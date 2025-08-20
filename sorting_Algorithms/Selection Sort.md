@@ -21,8 +21,11 @@ Imagine you are arranging books by height:
 - You look at all the books, pick the **shortest one**, place it first.
 - Then look at the remaining, pick the **next shortest**, place it second.
 - Continue until all are arranged. 
-```
-python 
+
+
+
+**Code:**
+```python 
 def selection_sort(arr):
     n = len(arr)
     
