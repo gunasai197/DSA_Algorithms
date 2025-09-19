@@ -10,7 +10,7 @@ Insertion Sort is a **simple sorting algorithm** that builds the final sorted ar
 4. Insert the key into its correct position.
 5. Repeat until the whole array is sorted.
 
-Pseudocode
+**Pseudocode
 ```
 for i = 1 to n-1:
     key = arr[i]
