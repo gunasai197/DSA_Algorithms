@@ -1,8 +1,8 @@
-*what is Insertion sort*
+### what is Insertion sort
 
 Insertion Sort is a **simple sorting algorithm** that builds the final sorted array one element at a time just like how we sort playing cards in our hands.
 
-### How it Works (Logic)
+#### How it Works (Logic)
 
 1. Start from the **second element** (index `1`) because the first element alone is already “sorted”.
 2. Pick the current element (called **key**) and compare it with elements before it.
@@ -45,12 +45,12 @@ print("Sorted:", insertion_sort(nums))
 
 ```
 
-###  Time Complexity
+### Time Complexity
 
 - **Best case (Already sorted):** O(n)
 - **Worst case (Reverse order):** O(n²)
 - **Average case:** O(n²)
-###  Space Complexity
+### Space Complexity
 
 - **O(1)** → In-place sorting (no extra space needed).
 
@@ -63,7 +63,6 @@ When you play cards, you usually:
 - Compare it with the cards already in your hand.
 - Insert it at the right place.
 👉 This is exactly how **Insertion Sort** works.
-
 ### 2. **Arranging Books on a Shelf**
 Suppose you want to arrange books by height:
 - Start with the first book (already "sorted").
@@ -71,8 +70,7 @@ Suppose you want to arrange books by height:
 - Continue until all books are sorted
 ### 3. **Sorting Emails by Date (Manually)**
 If you look at your unsorted emails and move each one into the correct place in a sorted list (say, from newest to oldest), you are performing insertion sort.
-
-### 4. **Classroom Attendance Roll**
+### 4.**Classroom Attendance Roll**
 When a new student joins a class:
 - The teacher finds the correct alphabetical position of the new name in the list.
 - Shifts the names downward.
