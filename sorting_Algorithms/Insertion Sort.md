@@ -1,3 +1,5 @@
+*what is Insertion sort*
+
 Insertion Sort is a **simple sorting algorithm** that builds the final sorted array one element at a time just like how we sort playing cards in our hands.
 
 ### How it Works (Logic)
