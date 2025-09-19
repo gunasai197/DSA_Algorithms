@@ -20,8 +20,31 @@ for i = 1 to n-1:
         j = j - 1
     arr[j+1] = key
 ```
-```
-## Code
+
+**Code 
+
+`def insertion_sort(arr):
+    # Traverse from the 2nd element to the end
+    for i in range(1, len(arr)):
+        key = arr[i]   # element to be placed
+        j = i - 1
+
+        # Shift elements of arr[0..i-1] that are greater than key
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]
+            j -= 1
+
+        # Place key in its correct position
+        arr[j + 1] = key
+
+    return arr
+
+
+# Example usage
+nums = [7, 3, 5, 2, 9]
+print("Unsorted:", nums)
+print("Sorted:", insertion_sort(nums))
+`` python
 ```
 
 ###  Time Complexity
