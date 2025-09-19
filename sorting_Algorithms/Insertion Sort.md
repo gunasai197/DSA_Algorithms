@@ -21,7 +21,7 @@ for i = 1 to n-1:
     arr[j+1] = key
 ```
 
-***Code 
+**Code 
 ``` python
 def insertion_sort(arr):
     # Traverse from the 2nd element to the end
