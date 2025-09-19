@@ -54,4 +54,18 @@ print("Sorted:", insertion_sort(nums))
 
 - **O(1)** → In-place sorting (no extra space needed).
 
-Real-World Example of Insertion Sort
+### Real-World Example of Insertion Sort
+
+### 1. **Arranging Playing Cards in Your Hand**
+
+When you play cards, you usually:
+- Pick one card at a time.
+- Compare it with the cards already in your hand.
+- Insert it at the right place.
+👉 This is exactly how **Insertion Sort** works.
+
+### 2. **Arranging Books on a Shelf**
+Suppose you want to arrange books by height:
+- Start with the first book (already "sorted").
+- Take the next book and insert it into its correct place among the arranged ones.
+- Continue until all books are sorted
