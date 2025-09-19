@@ -20,6 +20,10 @@ for i = 1 to n-1:
         j = j - 1
     arr[j+1] = key
 ```
+```
+## Code
+```
+
 ###  Time Complexity
 
 - **Best case (Already sorted):** O(n)
