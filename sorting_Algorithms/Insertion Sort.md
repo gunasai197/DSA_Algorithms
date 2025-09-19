@@ -20,3 +20,11 @@ for i = 1 to n-1:
         j = j - 1
     arr[j+1] = key
 ```
+###  Time Complexity
+
+- **Best case (Already sorted):** O(n)
+- **Worst case (Reverse order):** O(n²)
+- **Average case:** O(n²)
+###  Space Complexity
+
+- **O(1)** → In-place sorting (no extra space needed).
