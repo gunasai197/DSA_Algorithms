@@ -69,3 +69,12 @@ Suppose you want to arrange books by height:
 - Start with the first book (already "sorted").
 - Take the next book and insert it into its correct place among the arranged ones.
 - Continue until all books are sorted
+### 3. **Sorting Emails by Date (Manually)**
+If you look at your unsorted emails and move each one into the correct place in a sorted list (say, from newest to oldest), you are performing insertion sort.
+
+### 4. **Classroom Attendance Roll**
+When a new student joins a class:
+- The teacher finds the correct alphabetical position of the new name in the list.
+- Shifts the names downward.
+- Inserts the new student’s name.
+That’s insertion sort in real life.
