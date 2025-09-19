@@ -22,8 +22,8 @@ for i = 1 to n-1:
 ```
 
 **Code 
-
-`def insertion_sort(arr):
+``` python
+def insertion_sort(arr):
     # Traverse from the 2nd element to the end
     for i in range(1, len(arr)):
         key = arr[i]   # element to be placed
@@ -38,13 +38,11 @@ for i = 1 to n-1:
         arr[j + 1] = key
 
     return arr
-
-
 # Example usage
 nums = [7, 3, 5, 2, 9]
 print("Unsorted:", nums)
 print("Sorted:", insertion_sort(nums))
-`` python
+
 ```
 
 ###  Time Complexity
