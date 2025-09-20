@@ -37,3 +37,28 @@ It works by repeatedly **dividing** the array into smaller subarrays until each 
 - Merge ****[27, 38]**** and ****[10,43]**** to get the final sorted list ****[10, 27, 38, 43]****
 
 Therefore, the sorted list is ****[10, 27, 38, 43]**** .
+
+**Pseudocode**
+
+```
+MergeSort(arr):
+    if length(arr) <= 1:
+        return arr
+    mid = len(arr) / 2
+    left = MergeSort(arr[0..mid-1])
+    right = MergeSort(arr[mid..end])
+    return Merge(left, right)
+
+Merge(left, right):
+    result = []
+    while left and right are not empty:
+        if left[0] <= right[0]:
+            append left[0] to result
+            remove left[0]
+        else:
+            append right[0] to result
+            remove right[0]
+    append remaining elements of left or right
+    return result
+
+```
