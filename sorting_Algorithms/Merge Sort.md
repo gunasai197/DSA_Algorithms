@@ -7,7 +7,7 @@ It follows the divide-and-conquer** approach. It works by recursively dividing t
 
 ## Here's a step-by-step explanation of how merge sort works:
 
-> 1. ****Divide: Divide the list or array recursively into two halves until it can no more be divided.
-> 2. ****Conquer:**** Each subarray is sorted individually using the merge sort algorithm.
-> 3. ****Merge:**** The sorted subarrays are merged back together in sorted order. The process continues until all elements from both subarrays have been merged.
+> 1. **Divide:** Divide the list or array recursively into two halves until it can no more be divided.
+> 2. **Conquer**: Each subarray is sorted individually using the merge sort algorithm.
+> 3. **Merge:** The sorted subarrays are merged back together in sorted order. The process continues until all elements from both subarrays have been merged.
 
