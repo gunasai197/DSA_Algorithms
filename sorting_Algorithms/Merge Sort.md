@@ -114,7 +114,6 @@ print("Sorted:", sorted_arr)
 - **Average case:** O(n log n)
 
 **Space Complexity:** O(n) (extra space for temporary arrays)
-
 ## Characteristics
 
 - **Efficient** for large datasets.
