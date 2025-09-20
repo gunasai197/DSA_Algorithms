@@ -19,7 +19,7 @@ It works by repeatedly **dividing** the array into smaller subarrays until each 
 
 **Divide:**
 
-- ****[38, 27, 43, 10]**** is divided into ****[38, 27 ] and ****[43, 10]**** .
+- ****[38, 27, 43, 10]**** is divided into ****[38, 27 ]**** and ****[43, 10]**** .
 - ****[38, 27]**** is divided into ****[38]**** and ****[27]**** .
 - ****[43, 10]**** is divided into ****[43]**** and ****[10]**** .
 
