@@ -107,5 +107,17 @@ print("Sorted:", sorted_arr)
 
 ```
 
+## Time & Space Complexity
 
+- **Best case:** O(n log n)
+- **Worst case:** O(n log n)
+- **Average case:** O(n log n)
 
+**Space Complexity:** O(n) (extra space for temporary arrays)
+
+## Characteristics
+
+- **Efficient** for large datasets.
+- **Stable sort** (preserves order of equal elements).
+- **Not in-place** (needs extra memory).
+- Used in **external sorting** (like sorting files on disk).
