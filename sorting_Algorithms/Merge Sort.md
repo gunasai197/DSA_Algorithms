@@ -127,7 +127,6 @@ print("Sorted:", sorted_arr)
 Imagine you have two sorted files (say employee lists sorted by name) and you want to combine them into one sorted file.
 - Since both files are already sorted, you can **merge them efficiently** → just like the **merge step** in Merge Sort.
 This is why **databases** and **search engines** often use merge sort.
-
 ### 2. **Music Playlists**
 Suppose you have two playlists:
 - Playlist A sorted by song title.
@@ -135,11 +134,10 @@ Suppose you have two playlists:
     If you want one combined playlist, sorted by title, you merge them just like Merge Sort.
 ### 3. **Library Books Arrangement**
 If two librarians separately sort different halves of the library by book title, when they combine their sections, they only need to **merge** the two sorted halves.
-
 ### 4. **External Sorting (Big Data)**
 When data is too large to fit into memory (like sorting 100GB of data on a 4GB RAM machine):
 1. Break the data into smaller chunks (divide).
 2. Sort each chunk separately (in memory).
-3. Merge all chunks into a final sorted file.  
+3. Merge all chunks into a final sorted file.      
 
 👉 This is exactly how **Merge Sort** is applied in the real world for big datasets.
