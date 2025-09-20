@@ -12,11 +12,11 @@ It follows the divide-and-conquer** approach. It works by recursively dividing t
 - **Conquer**: Each subarray is sorted individually using the merge sort algorithm.
 - **Merge:** The sorted subarrays are merged back together in sorted order. The process continues until all elements from both subarrays have been merged.
  
- ## Example:
+## Example:
 
 **Divide:**
 
-- ****[38, 27, 43, 10]**** is divided into ****[38, 27**** ] and ****[43, 10]**** .
+- ****[38, 27, 43, 10]**** is divided into ****[38, 27 ] and ****[43, 10]**** .
 - ****[38, 27]**** is divided into ****[38]**** and ****[27]**** .
 - ****[43, 10]**** is divided into ****[43]**** and ****[10]**** .
 
