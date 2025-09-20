@@ -120,3 +120,10 @@ print("Sorted:", sorted_arr)
 - **Stable sort** (preserves order of equal elements).
 - **Not in-place** (needs extra memory).
 - Used in **external sorting** (like sorting files on disk).
+
+## Real-World Examples of Merge Sort
+### 1. **Merging Two Sorted Files**
+
+Imagine you have two sorted files (say employee lists sorted by name) and you want to combine them into one sorted file.
+- Since both files are already sorted, you can **merge them efficiently** → just like the **merge step** in Merge Sort.
+This is why **databases** and **search engines** often use merge sort.
