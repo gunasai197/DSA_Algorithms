@@ -4,10 +4,8 @@
 It follows the divide-and-conquer** approach. It works by recursively dividing the input array into two halves, recursively sorting the two halves and finally merging them back together to obtain the sorted array.
 ## or
 
-**Merge Sort** is a **divide and conquer** sorting algorithm.  
-
-
-
+**Merge Sort** is a **divide and conquer** sorting algorithm.
+It works by repeatedly **dividing** the array into smaller subarrays until each subarray has only one element, and then **merging** those subarrays back together in sorted order.  
 
 ---
 ![[Pasted image 20250920194937.png]]
